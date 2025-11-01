@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "font": {"color": "black"}, "id": "Adobe", "label": "Adobe", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Figma", "label": "Figma", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Amazon", "label": "Amazon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Alibaba", "label": "Alibaba", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Baidu", "label": "Baidu", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Apple", "label": "Apple", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Uber", "label": "Uber", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Huawei", "label": "Huawei", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Broadcom", "label": "Broadcom", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "TSMC", "label": "TSMC", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Foxconn", "label": "Foxconn", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Nvidia", "label": "Nvidia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Verizon", "label": "Verizon", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Hugging Face", "label": "Hugging Face", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "SAP", "label": "SAP", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Anthropic", "label": "Anthropic", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "ByteDance", "label": "ByteDance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Meta", "label": "Meta", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Netflix", "label": "Netflix", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Pinterest", "label": "Pinterest", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Rivian", "label": "Rivian", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "NBA", "label": "NBA", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Databricks", "label": "Databricks", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Alphabet", "label": "Alphabet", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Microsoft", "label": "Microsoft", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Corewave", "label": "Corewave", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "OpenAI", "label": "OpenAI", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Arm", "label": "Arm", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Intel", "label": "Intel", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Oracle", "label": "Oracle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Salesforce", "label": "Salesforce", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Snowflake", "label": "Snowflake", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Tesla", "label": "Tesla", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "BlackRock", "label": "BlackRock", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Aligned Data Centers", "label": "Aligned Data Centers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "IBM", "label": "IBM", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "AMD", "label": "AMD", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "MediaTek", "label": "MediaTek", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Qualcomm", "label": "Qualcomm", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Sony", "label": "Sony", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Orange", "label": "Orange", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Samsung", "label": "Samsung", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Oxford University", "label": "Oxford University", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Nokia", "label": "Nokia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Spotify", "label": "Spotify", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Thales", "label": "Thales", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Volvo", "label": "Volvo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "YouTube", "label": "YouTube", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Toyota", "label": "Toyota", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Red Hat", "label": "Red Hat", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Lift", "label": "Lift", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Tencent", "label": "Tencent", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "BYD", "label": "BYD", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Deepseek", "label": "Deepseek", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Ericsson", "label": "Ericsson", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "LinkedIn", "label": "LinkedIn", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "AT\u0026T", "label": "AT\u0026T", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Darabricks", "label": "Darabricks", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "GitHub", "label": "GitHub", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "GitLab", "label": "GitLab", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Vodafone", "label": "Vodafone", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "BharatGen", "label": "BharatGen", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Scale AI", "label": "Scale AI", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "eMarketingEye", "label": "eMarketingEye", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "PTA", "label": "PTA", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Blue Owl Capital", "label": "Blue Owl Capital", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Mercedes", "label": "Mercedes", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "SoftBank Group Corp", "label": "SoftBank Group Corp", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Yahoo", "label": "Yahoo", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Vodafone Group", "label": "Vodafone Group", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "ByteDanceUS", "label": "ByteDanceUS", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Honda", "label": "Honda", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Cruise", "label": "Cruise", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "GM", "label": "GM", "shape": "dot", "size": 10}, {"color": "#97c2fc", "font": {"color": "black"}, "id": "Universal Music", "label": "Universal Music", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "Adobe", "to": "Figma", "width": 1}, {"from": "Adobe", "to": "Amazon", "width": 1}, {"from": "Alibaba", "to": "Baidu", "width": 1}, {"from": "Alibaba", "to": "Apple", "width": 1}, {"from": "Baidu", "to": "Uber", "width": 1}, {"from": "Baidu", "to": "Huawei", "width": 1}, {"from": "Apple", "to": "Broadcom", "width": 1}, {"from": "Apple", "to": "TSMC", "width": 1}, {"from": "Apple", "to": "Foxconn", "width": 1}, {"from": "Amazon", "to": "Nvidia", "width": 1}, {"from": "Amazon", "to": "Verizon", "width": 1}, {"from": "Amazon", "to": "Hugging Face", "width": 1}, {"from": "Amazon", "to": "SAP", "width": 1}, {"from": "Amazon", "to": "Anthropic", "width": 1}, {"from": "Amazon", "to": "ByteDance", "width": 1}, {"from": "Amazon", "to": "Meta", "width": 1}, {"from": "Amazon", "to": "Netflix", "width": 1}, {"from": "Amazon", "to": "Pinterest", "width": 1}, {"from": "Amazon", "to": "Rivian", "width": 1}, {"from": "Amazon", "to": "NBA", "width": 1}, {"from": "Nvidia", "to": "Databricks", "width": 1}, {"from": "Nvidia", "to": "Alphabet", "width": 1}, {"from": "Nvidia", "to": "Microsoft", "width": 1}, {"from": "Nvidia", "to": "Corewave", "width": 1}, {"from": "Nvidia", "to": "TSMC", "width": 1}, {"from": "Nvidia", "to": "OpenAI", "width": 1}, {"from": "Nvidia", "to": "Arm", "width": 1}, {"from": "Nvidia", "to": "Intel", "width": 1}, {"from": "Nvidia", "to": "Oracle", "width": 1}, {"from": "Nvidia", "to": "Salesforce", "width": 1}, {"from": "Nvidia", "to": "Snowflake", "width": 1}, {"from": "Nvidia", "to": "Tesla", "width": 1}, {"from": "Nvidia", "to": "Uber", "width": 1}, {"from": "Nvidia", "to": "BlackRock", "width": 1}, {"from": "Nvidia", "to": "Aligned Data Centers", "width": 1}, {"from": "Hugging Face", "to": "Meta", "width": 1}, {"from": "SAP", "to": "Alphabet", "width": 1}, {"from": "SAP", "to": "IBM", "width": 1}, {"from": "Anthropic", "to": "Salesforce", "width": 1}, {"from": "Anthropic", "to": "Alphabet", "width": 1}, {"from": "Anthropic", "to": "IBM", "width": 1}, {"from": "AMD", "to": "TSMC", "width": 1}, {"from": "AMD", "to": "OpenAI", "width": 1}, {"from": "TSMC", "to": "Broadcom", "width": 1}, {"from": "TSMC", "to": "Intel", "width": 1}, {"from": "TSMC", "to": "MediaTek", "width": 1}, {"from": "TSMC", "to": "Qualcomm", "width": 1}, {"from": "TSMC", "to": "Sony", "width": 1}, {"from": "Salesforce", "to": "Alphabet", "width": 1}, {"from": "Alphabet", "to": "Orange", "width": 1}, {"from": "Alphabet", "to": "Samsung", "width": 1}, {"from": "Alphabet", "to": "Foxconn", "width": 1}, {"from": "Alphabet", "to": "Oxford University", "width": 1}, {"from": "Alphabet", "to": "Nokia", "width": 1}, {"from": "Alphabet", "to": "Oracle", "width": 1}, {"from": "Alphabet", "to": "Spotify", "width": 1}, {"from": "Alphabet", "to": "Thales", "width": 1}, {"from": "Alphabet", "to": "Volvo", "width": 1}, {"from": "Alphabet", "to": "YouTube", "width": 1}, {"from": "Alphabet", "to": "Toyota", "width": 1}, {"from": "Alphabet", "to": "Red Hat", "width": 1}, {"from": "Broadcom", "to": "OpenAI", "width": 1}, {"from": "Uber", "to": "Lift", "width": 1}, {"from": "Huawei", "to": "Tencent", "width": 1}, {"from": "BYD", "to": "Deepseek", "width": 1}, {"from": "Databricks", "to": "Microsoft", "width": 1}, {"from": "Ericsson", "to": "Microsoft", "width": 1}, {"from": "Microsoft", "to": "IBM", "width": 1}, {"from": "Microsoft", "to": "LinkedIn", "width": 1}, {"from": "Microsoft", "to": "Meta", "width": 1}, {"from": "Microsoft", "to": "Corewave", "width": 1}, {"from": "Microsoft", "to": "OpenAI", "width": 1}, {"from": "Microsoft", "to": "AT\u0026T", "width": 1}, {"from": "Microsoft", "to": "Darabricks", "width": 1}, {"from": "Microsoft", "to": "GitHub", "width": 1}, {"from": "Microsoft", "to": "GitLab", "width": 1}, {"from": "Microsoft", "to": "Oracle", "width": 1}, {"from": "Microsoft", "to": "Aligned Data Centers", "width": 1}, {"from": "Orange", "to": "OpenAI", "width": 1}, {"from": "Samsung", "to": "Qualcomm", "width": 1}, {"from": "Samsung", "to": "Spotify", "width": 1}, {"from": "Samsung", "to": "Tesla", "width": 1}, {"from": "IBM", "to": "Vodafone", "width": 1}, {"from": "IBM", "to": "Red Hat", "width": 1}, {"from": "IBM", "to": "BharatGen", "width": 1}, {"from": "Red Hat", "to": "Oracle", "width": 1}, {"from": "Red Hat", "to": "Meta", "width": 1}, {"from": "Meta", "to": "Scale AI", "width": 1}, {"from": "Meta", "to": "Arm", "width": 1}, {"from": "Meta", "to": "Oracle", "width": 1}, {"from": "Meta", "to": "eMarketingEye", "width": 1}, {"from": "Meta", "to": "PTA", "width": 1}, {"from": "Meta", "to": "Blue Owl Capital", "width": 1}, {"from": "Meta", "to": "Mercedes", "width": 1}, {"from": "Meta", "to": "Qualcomm", "width": 1}, {"from": "Scale AI", "to": "Arm", "width": 1}, {"from": "Corewave", "to": "OpenAI", "width": 1}, {"from": "OpenAI", "to": "Spotify", "width": 1}, {"from": "OpenAI", "to": "SoftBank Group Corp", "width": 1}, {"from": "Netflix", "to": "Yahoo", "width": 1}, {"from": "Nokia", "to": "Vodafone Group", "width": 1}, {"from": "Oracle", "to": "ByteDanceUS", "width": 1}, {"from": "Sony", "to": "Honda", "width": 1}, {"from": "Honda", "to": "Cruise", "width": 1}, {"from": "Honda", "to": "GM", "width": 1}, {"from": "YouTube", "to": "Universal Music", "width": 1}, {"from": "Cruise", "to": "GM", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
