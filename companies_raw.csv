@@ -1,7 +1,7 @@
 Entreprises,ISIN,Pays,CA,Budget R&D,Taille entreprise ,Secteur activité premier ,Actionnaire majoritaire ,OUI,NON
 Microsoft,US5949181045,US,"281,724 Md$ 2025","32, 488 Md$ ",Grande (228000 employés) ,Logiciel,Vanguard ,TRUE,FALSE
 Alphabet,US02079K3059 (Class A) / US02079K1079 (Class C),US,"350,018 Md$ 2025","48, 789 Md$",Grande (187103 employés),Logiciel,Vanguard ,TRUE,FALSE
-Amazon,US0231351067,US,"637,959 Md$ 2024","88.54 Md$ (FY2024; ""Technology & Content"")",Grande (1546000 employés) ,e commerce,Jeff Bezos,TRUE,FALSE
+AWS,US0231351067,US,"637,959 Md$ 2024","88.54 Md$ (FY2024; ""Technology & Content"")",Grande (1546000 employés) ,Logiciel,Jeff Bezos,TRUE,FALSE
 Nvidia,US67066G1040,US,130.5 Md$ (FY2025),12.914 Md$ (FY2025),Grande (36000 employés) ,Electronique,Vanguard ,TRUE,FALSE
 Oracle,US68389X1054,US,"57,399 Md$ 2025","9,860 Md$ 2025",Grande (162000 employés) ,Cloud,Ellison,TRUE,FALSE
 Salesforce,US79466L3024,US,37.90 Md$ (FY2025),5.493 Md$ 2025,Grande (76 453 employés),Logiciel,Vanguard ,TRUE,FALSE
