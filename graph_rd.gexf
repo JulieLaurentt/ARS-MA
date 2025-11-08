@@ -1,0 +1,1588 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-11-08">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="18" title="Type_alliance" type="string" />
+      <attribute id="19" title="Date" type="double" />
+      <attribute id="20" title="Concurrence" type="double" />
+      <attribute id="21" title="Explanation" type="string" />
+      <attribute id="22" title="SourceURL" type="string" />
+      <attribute id="23" title="Comment" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Company" type="string" />
+      <attribute id="1" title="ISIN" type="string" />
+      <attribute id="2" title="MarketValueUSD" type="string" />
+      <attribute id="3" title="RevenueUSD" type="string" />
+      <attribute id="4" title="Revenue_Value" type="string" />
+      <attribute id="5" title="Revenue_Currency" type="string" />
+      <attribute id="6" title="Revenue_UnitMultiplier" type="string" />
+      <attribute id="7" title="RDBudgetUSD" type="string" />
+      <attribute id="8" title="RDBudget_Value" type="string" />
+      <attribute id="9" title="RDBudget_Currency" type="string" />
+      <attribute id="10" title="RDBudget_UnitMultiplier" type="string" />
+      <attribute id="11" title="Employees" type="string" />
+      <attribute id="12" title="Activity" type="string" />
+      <attribute id="13" title="Region" type="string" />
+      <attribute id="14" title="MajorShareholders" type="string" />
+      <attribute id="15" title="Flag_OUI" type="string" />
+      <attribute id="16" title="Flag_NON" type="string" />
+      <attribute id="17" title="MajorShareholder" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Adobe" label="Adobe">
+        <attvalues>
+          <attvalue for="0" value="Adobe" />
+          <attvalue for="1" value="L55749382" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="21512024000.0" />
+          <attvalue for="4" value="21.512024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="3944000000.0" />
+          <attvalue for="8" value="3.944" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="30709.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Sony" label="Sony">
+        <attvalues>
+          <attvalue for="0" value="Sony" />
+          <attvalue for="1" value="JP3435000009" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="1.32025e+17" />
+          <attvalue for="4" value="132025.0" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000000.0" />
+          <attvalue for="7" value="734500000000.0" />
+          <attvalue for="8" value="734.5" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="112.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Nomura Asset Management" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Nomura Asset Management" />
+        </attvalues>
+      </node>
+      <node id="Tesla" label="Tesla">
+        <attvalues>
+          <attvalue for="0" value="Tesla" />
+          <attvalue for="1" value="US88160R1014 (Bourse Francfort)" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="97690202400.0" />
+          <attvalue for="4" value="97.6902024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="4540000000.0" />
+          <attvalue for="8" value="4.54" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="125665.0" />
+          <attvalue for="12" value="AUTO" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Elon Musk" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Elon Musk" />
+        </attvalues>
+      </node>
+      <node id="SAP" label="SAP">
+        <attvalues>
+          <attvalue for="0" value="SAP" />
+          <attvalue for="1" value="888098" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="34176202400.0" />
+          <attvalue for="4" value="34.1762024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="6509000.0" />
+          <attvalue for="8" value="6.509" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="109121.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="BlackRock" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="BlackRock" />
+        </attvalues>
+      </node>
+      <node id="Broadcom" label="Broadcom">
+        <attvalues>
+          <attvalue for="0" value="Broadcom" />
+          <attvalue for="1" value="US11135F1012" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="51520240000.0" />
+          <attvalue for="4" value="51.52024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="9310000000.0" />
+          <attvalue for="8" value="9.31" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="37000.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Nvidia" label="Nvidia">
+        <attvalues>
+          <attvalue for="0" value="Nvidia" />
+          <attvalue for="1" value="US67066G1040" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="130520250000.0" />
+          <attvalue for="4" value="130.52025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="12914202500.0" />
+          <attvalue for="8" value="12.9142025" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="36000.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Meta" label="Meta">
+        <attvalues>
+          <attvalue for="0" value="Meta" />
+          <attvalue for="1" value="US30303M1027" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="164501202400.0" />
+          <attvalue for="4" value="164.5012024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="43619202400.0" />
+          <attvalue for="8" value="43.6192024" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="75945.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="LinkedIn" label="LinkedIn">
+        <attvalues>
+          <attvalue for="0" value="LinkedIn" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="2990201500.0" />
+          <attvalue for="4" value="2.9902015" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="775660000.0" />
+          <attvalue for="8" value="775.66" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="9372.0" />
+          <attvalue for="12" value="AI" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="" />
+        </attvalues>
+      </node>
+      <node id="Snowflake" label="Snowflake">
+        <attvalues>
+          <attvalue for="0" value="Snowflake" />
+          <attvalue for="1" value="US8334451098 (Bourse Francfort)" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="3626202500.0" />
+          <attvalue for="4" value="3.6262025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="1784000000.0" />
+          <attvalue for="8" value="1.784" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="7834.0" />
+          <attvalue for="12" value="CLOUD" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Tencent" label="Tencent">
+        <attvalues>
+          <attvalue for="0" value="Tencent" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="660257000000.0" />
+          <attvalue for="4" value="660.257" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="70686000000.0" />
+          <attvalue for="8" value="70.686" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="111.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Prosus NV" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Prosus NV" />
+        </attvalues>
+      </node>
+      <node id="Uber" label="Uber">
+        <attvalues>
+          <attvalue for="0" value="Uber" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="43978000000.0" />
+          <attvalue for="4" value="43.978" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="3109000000.0" />
+          <attvalue for="8" value="3.109" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="31.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="IBM" label="IBM">
+        <attvalues>
+          <attvalue for="0" value="IBM" />
+          <attvalue for="1" value="US4592001014" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="62753202400.0" />
+          <attvalue for="4" value="62.7532024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="7482024000.0" />
+          <attvalue for="8" value="7.482024" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="3293400.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Nokia" label="Nokia">
+        <attvalues>
+          <attvalue for="0" value="Nokia" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="19.22" />
+          <attvalue for="4" value="19.22" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="4.437" />
+          <attvalue for="8" value="4.437" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1.0" />
+          <attvalue for="11" value="80361.0" />
+          <attvalue for="12" value="TELCO" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Solidium Oy" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Solidium Oy" />
+        </attvalues>
+      </node>
+      <node id="AMD" label="AMD">
+        <attvalues>
+          <attvalue for="0" value="AMD" />
+          <attvalue for="1" value="US0079031078" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="25785202400.0" />
+          <attvalue for="4" value="25.7852024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="6500000000.0" />
+          <attvalue for="8" value="6.5" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="28000.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Huawei" label="Huawei">
+        <attvalues>
+          <attvalue for="0" value="Huawei" />
+          <attvalue for="1" value="CN000HUAWEI0" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="185176201000.0" />
+          <attvalue for="4" value="185.176201" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="16556000.000000002" />
+          <attvalue for="8" value="16.556" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="110000.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="True" />
+          <attvalue for="17" value="" />
+        </attvalues>
+      </node>
+      <node id="Lyft" label="Lyft">
+        <attvalues>
+          <attvalue for="0" value="Lyft" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="5786000000.0" />
+          <attvalue for="4" value="5.786" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="397070000.0" />
+          <attvalue for="8" value="397.07" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="2.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="" />
+        </attvalues>
+      </node>
+      <node id="Intel" label="Intel">
+        <attvalues>
+          <attvalue for="0" value="Intel" />
+          <attvalue for="1" value="US4581401001" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="53101202400.0" />
+          <attvalue for="4" value="53.1012024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="16546000000.0" />
+          <attvalue for="8" value="16.546" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="108900.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Salesforce" label="Salesforce">
+        <attvalues>
+          <attvalue for="0" value="Salesforce" />
+          <attvalue for="1" value="US79466L3024" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="37902025000.0" />
+          <attvalue for="4" value="37.902025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="5493202500.0" />
+          <attvalue for="8" value="5.4932025" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="76453.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Apple" label="Apple">
+        <attvalues>
+          <attvalue for="0" value="Apple" />
+          <attvalue for="1" value="US0378331005" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="391035202400.0" />
+          <attvalue for="4" value="391.0352024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="31372024000.0" />
+          <attvalue for="8" value="31.372024" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="164000.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Alphabet" label="Alphabet">
+        <attvalues>
+          <attvalue for="0" value="Alphabet" />
+          <attvalue for="1" value="US02079K3059 (Class A) / US02079K1079 (Class C)" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="350018202500.0" />
+          <attvalue for="4" value="350.0182025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="48789000000.0" />
+          <attvalue for="8" value="48.789" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="187103.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Microsoft" label="Microsoft">
+        <attvalues>
+          <attvalue for="0" value="Microsoft" />
+          <attvalue for="1" value="US5949181045" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="281724202500.0" />
+          <attvalue for="4" value="281.7242025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="32488000000.0" />
+          <attvalue for="8" value="32.488" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="228000.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Baidu" label="Baidu">
+        <attvalues>
+          <attvalue for="0" value="Baidu" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="133250000000.0" />
+          <attvalue for="4" value="133.25" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="24192000000.0" />
+          <attvalue for="8" value="24.192" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Primecap Management Company" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Primecap Management Company" />
+        </attvalues>
+      </node>
+      <node id="Alibaba" label="Alibaba">
+        <attvalues>
+          <attvalue for="0" value="Alibaba" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="139068000000.0" />
+          <attvalue for="4" value="139.068" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="7292000000.0" />
+          <attvalue for="8" value="7.292" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="123711.0" />
+          <attvalue for="12" value="ECOM" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Primecap Management Company" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Primecap Management Company" />
+        </attvalues>
+      </node>
+      <node id="Pinterest" label="Pinterest">
+        <attvalues>
+          <attvalue for="0" value="Pinterest" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="3646000000.0" />
+          <attvalue for="4" value="3.646" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="1240000000.0" />
+          <attvalue for="8" value="1.24" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="4.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Ericsson" label="Ericsson">
+        <attvalues>
+          <attvalue for="0" value="Ericsson" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="247.88" />
+          <attvalue for="4" value="247.88" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="49955.0" />
+          <attvalue for="8" value="49955.0" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1.0" />
+          <attvalue for="11" value="89900.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Investor AB" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Investor AB" />
+        </attvalues>
+      </node>
+      <node id="AT&amp;T" label="AT&amp;T">
+        <attvalues>
+          <attvalue for="0" value="AT&amp;T" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="122336000000.0" />
+          <attvalue for="4" value="122.336" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="955000000.0" />
+          <attvalue for="8" value="955.0" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="140990.0" />
+          <attvalue for="12" value="TELCO" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="TSMC" label="TSMC">
+        <attvalues>
+          <attvalue for="0" value="TSMC" />
+          <attvalue for="1" value="TW0002330008" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="2920240000000.0" />
+          <attvalue for="4" value="2.92024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000000.0" />
+          <attvalue for="7" value="204181000000.0" />
+          <attvalue for="8" value="204.181" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="National Developement Fund" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="National Developement Fund" />
+        </attvalues>
+      </node>
+      <node id="Qualcomm" label="Qualcomm">
+        <attvalues>
+          <attvalue for="0" value="Qualcomm" />
+          <attvalue for="1" value="US7475251036" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="392024000000000.0" />
+          <attvalue for="4" value="392024.0" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="8900000000.0" />
+          <attvalue for="8" value="8.9" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="49000.0" />
+          <attvalue for="12" value="TELCO" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Vanguard" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Vanguard" />
+        </attvalues>
+      </node>
+      <node id="Amazon" label="Amazon">
+        <attvalues>
+          <attvalue for="0" value="Amazon" />
+          <attvalue for="1" value="US0231351067" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="637959202400.0" />
+          <attvalue for="4" value="637.9592024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="88542024000.0" />
+          <attvalue for="8" value="88.542024" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="1546000.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Jeff Bezos" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Jeff Bezos" />
+        </attvalues>
+      </node>
+      <node id="Rivian" label="Rivian">
+        <attvalues>
+          <attvalue for="0" value="Rivian" />
+          <attvalue for="1" value="" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="4970000000.0" />
+          <attvalue for="4" value="4.97" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="1539000000.0" />
+          <attvalue for="8" value="1.539" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="14.0" />
+          <attvalue for="12" value="AUTO" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Amazon" />
+          <attvalue for="15" value="False" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Amazon" />
+        </attvalues>
+      </node>
+      <node id="ASML" label="ASML">
+        <attvalues>
+          <attvalue for="0" value="ASML" />
+          <attvalue for="1" value="NL0010273215" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="28263202400.0" />
+          <attvalue for="4" value="28.2632024" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="1122000000.0" />
+          <attvalue for="8" value="1.122" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="44000.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="BlackRock" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="BlackRock" />
+        </attvalues>
+      </node>
+      <node id="Arm" label="Arm">
+        <attvalues>
+          <attvalue for="0" value="Arm" />
+          <attvalue for="1" value="US0420682058" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="42025000000000.0" />
+          <attvalue for="4" value="42025.0" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="2000000000.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="8330.0" />
+          <attvalue for="12" value="ELECTRONIQUE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="SB Investement Advisers" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="SB Investement Advisers" />
+        </attvalues>
+      </node>
+      <node id="Figma" label="Figma">
+        <attvalues>
+          <attvalue for="0" value="Figma" />
+          <attvalue for="1" value="US3168411052" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="7492024000000000.0" />
+          <attvalue for="4" value="7492024.0" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="751000000.0" />
+          <attvalue for="8" value="751.0" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000.0" />
+          <attvalue for="11" value="1577.0" />
+          <attvalue for="12" value="SOFTWARE" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Kleiner, Perkins, Caufiels &amp; Byers" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Kleiner, Perkins, Caufiels &amp; Byers" />
+        </attvalues>
+      </node>
+      <node id="Oracle" label="Oracle">
+        <attvalues>
+          <attvalue for="0" value="Oracle" />
+          <attvalue for="1" value="US68389X1054" />
+          <attvalue for="2" value="" />
+          <attvalue for="3" value="57399202500.0" />
+          <attvalue for="4" value="57.3992025" />
+          <attvalue for="5" value="USD" />
+          <attvalue for="6" value="1000000000.0" />
+          <attvalue for="7" value="9860202500.0" />
+          <attvalue for="8" value="9.8602025" />
+          <attvalue for="9" value="USD" />
+          <attvalue for="10" value="1000000000.0" />
+          <attvalue for="11" value="162000.0" />
+          <attvalue for="12" value="CLOUD" />
+          <attvalue for="13" value="" />
+          <attvalue for="14" value="Ellison" />
+          <attvalue for="15" value="True" />
+          <attvalue for="16" value="False" />
+          <attvalue for="17" value="Ellison" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Adobe" target="Figma" id="0">
+        <attvalues>
+          <attvalue for="18" value="Tentative d'acquisition" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Tentative d’acquisition stratégique - annulée" />
+          <attvalue for="22" value="https://www.forbes.fr/business/adobe-met-fin-a-laccord-de-rachat-de-figma-pour-20-milliards-de-dollars/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Adobe" target="Amazon" id="1">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat marketing cloud" />
+          <attvalue for="22" value="AWS Blog, 2023, https://martech360.com/tech-analytics/adobe-and-amazon-web-services-partner-to-bring-adobe-experience-platform-to-brands/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Sony" target="TSMC" id="2">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Construction d’usine au Japon" />
+          <attvalue for="22" value="https://en.wikipedia.org/wiki/Japan_Advanced_Semiconductor_Manufacturing" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Tesla" target="Nvidia" id="3">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour IA embarquée" />
+          <attvalue for="22" value="https://www.tomshardware.fr/tesla-va-investir-des-milliards-de-dollars-en-gpus-amd-et-nvidia-pour-ameliorer-sa-conduite-autonome/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="SAP" target="Amazon" id="4">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat cloud d’entreprise, souveraineté numérique en europe" />
+          <attvalue for="22" value="https://news.sap.com/france/2025/09/aws-et-sap-renforcent-leur-collaboration-pour-faire-progresser-la-souverainete-numerique-en-europe/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="SAP" target="Alphabet" id="5">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat IA et cloud" />
+          <attvalue for="22" value="https://cloud.google.com/solutions/sap?hl=fr" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="SAP" target="IBM" id="6">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour transformation numérique" />
+          <attvalue for="22" value="https://www.ibm.com/sap" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Broadcom" target="Apple" id="7">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Fabrication de puces IA" />
+          <attvalue for="22" value="https://www.bloomberg.com/news/videos/2024-12-11/apple-broadcom-in-chip-partnership-reports-video" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Broadcom" target="TSMC" id="8">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des puces " />
+          <attvalue for="22" value="https://hardwareand.co/actualites/breves/quels-sont-les-principaux-clients-de-tsmc-en-2025-puis-2026-voici-la-liste" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Amazon" id="9">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur cloud et GPU pour IA générative,collaboration stratégique de longue date des entreprises pour fournir l'infrastructure, les logiciels et les services les plus sécurisés et les plus avancés pour aider les clients à débloquer de nouvelles capacités d'intelligence artificielle (IA) générative." />
+          <attvalue for="22" value="https://www.tradingsat.com/amazoncom-US0231351067/actualites/amazoncom-amazon-nouvelle-collaboration-entre-aws-et-nvidia-1110339.html" />
+          <attvalue for="23" value="partenaire depuis 14ans" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Alphabet" id="10">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur l'entraînement IA et TPU/GPU" />
+          <attvalue for="22" value="https://www.tradingsat.com/nvidia-US67066G1040/actualites/nvidia-nvidia-renforce-son-partenariat-avec-google-autour-de-l-ia-1139438.html" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Microsoft" id="11">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour services IA sur Azure" />
+          <attvalue for="22" value="Nvidia Blog, 2023" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="TSMC" id="12">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Production de GPU Hopper + domaine des semi-conducteurs, notamment pour la fabrication de puces destinées à l'intelligence artificielle (IA)" />
+          <attvalue for="22" value=" https://quantaintelligence.ai/2024/09/15/semiconductors/nvidias-semiconductor-partnerships-transform-ai-landscape" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Arm" id="13">
+        <attvalues>
+          <attvalue for="18" value="Tentative d'acquisition" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Tentative d’acquisition avortée" />
+          <attvalue for="22" value="CNBC, 2022" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Intel" id="14">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="5 milliards $" />
+          <attvalue for="22" value="https://www.lexpress.fr/economie/high-tech/semi-conducteurs-les-dessous-de-laccord-entre-les-deux-geants-nvidia-et-intel-E3NW5RBWNFGSNIYAQJ3EJTMIQ4/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Oracle" id="15">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Alliance pour IA et cloud computing" />
+          <attvalue for="22" value="https://www.oracle.com/fr/cloud/nvidia/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Salesforce" id="16">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Intégration IA générative Einstein GPT" />
+          <attvalue for="22" value="https://www.salesforce.com/news/press-releases/2024/09/17/nvidia-ai-agent-partnership/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Snowflake" id="17">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour traitement IA" />
+          <attvalue for="22" value="https://www.usine-digitale.fr/article/snowflake-renforce-son-partenariat-avec-nvidia-autour-de-l-ia.N2213949" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nvidia" target="Uber" id="18">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat IA pour conduite autonome" />
+          <attvalue for="22" value="https://www.investors.com/news/technology/uber-stock-nvidia-autonomous-driving-partnership-robotaxi/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Meta" target="Microsoft" id="19">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="240 millions $" />
+          <attvalue for="22" value="https://www.ecommercemag.fr/Thematique/marketing-1221/Breves/Facebook-Microsoft-annoncent-developpement-leur-partenariat-publicitaire-168481.htm/amp" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Meta" target="Amazon" id="20">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des services cloud AWS" />
+          <attvalue for="22" value="https://www.hpcwire.com/off-the-wire/aws-and-meta-partner-to-accelerate-ai-innovation/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Meta" target="Arm" id="21">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="Non-concurrence" />
+          <attvalue for="21" value="amélioration de l'ia de meta" />
+          <attvalue for="22" value="https://newsroom.arm.com/news/arm-meta-strategic-partnership" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Meta" target="Oracle" id="22">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="fournisseur de cloud" />
+          <attvalue for="22" value="https://fr.businessam.be/cours-de-laction-oracle-prevoit-une-forte-croissance-grace-aux-services-cloud-a-lia-et-a-sa-collaboration-avec-meta/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Meta" target="Qualcomm" id="23">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="lunettes intelligentes" />
+          <attvalue for="22" value="https://www.expansion.com/economia-digital/companias/2025/10/13/68ecbc09e5fdead3338b4572.html?intcmp=NOT002" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Snowflake" target="Nvidia" id="24">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour traitement IA" />
+          <attvalue for="22" value="https://www.usine-digitale.fr/article/snowflake-renforce-son-partenariat-avec-nvidia-autour-de-l-ia.N2213949" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Tencent" target="Huawei" id="25">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration cloud et IA en Chine" />
+          <attvalue for="22" value="businesskorea.co.kr/news/articleView.html?idxno=219687" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Uber" target="Baidu" id="26">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour le lancement de robo-taxis en Asie et MO" />
+          <attvalue for="22" value="https://www.lefigaro.fr/flash-eco/uber-s-associe-au-chinois-baidu-pour-deployer-des-robotaxis-20250715" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Uber" target="Lyft" id="27">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour le lancement de robo-taxis en Europe" />
+          <attvalue for="22" value="https://fr.investing.com/news/stock-market-news/les-actions-de-baidu-et-lyft-bondissent-grace-a-un-partenariat-de-robotaxis-en-europe-2988864" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Uber" target="Nvidia" id="28">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat IA pour conduite autonome" />
+          <attvalue for="22" value="https://www.investors.com/news/technology/uber-stock-nvidia-autonomous-driving-partnership-robotaxi/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="IBM" target="Microsoft" id="29">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025 (évolution d'une collaboration qui remonte à 1980)" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration cloud hybride" />
+          <attvalue for="22" value="https://newsroom.ibm.com/2025-04-29-ibm-launches-microsoft-practice-to-deliver-transformative-business-value-for-clients?utm_source=chatgpt.comIBM Press, 2023, https://www.ibm.com/microsoft" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="IBM" target="SAP" id="30">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour transformation numérique" />
+          <attvalue for="22" value="https://www.ibm.com/sap" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="Alphabet" id="31">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur réseaux cloud natifs" />
+          <attvalue for="22" value="https://www.nokia.com/newsroom/nokia-network-apis-now-available-on-google-cloud-marketplace-making-it-even-easier-for-developers-to-utilize/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="AMD" target="TSMC" id="32">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des puces " />
+          <attvalue for="22" value="https://hardwareand.co/actualites/breves/quels-sont-les-principaux-clients-de-tsmc-en-2025-puis-2026-voici-la-liste" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Huawei" target="Baidu" id="33">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat developpement navigation connectée" />
+          <attvalue for="22" value="http://mobilite-verte.com/news/article-482.html" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Huawei" target="Tencent" id="34">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration cloud et IA en Chine" />
+          <attvalue for="22" value="businesskorea.co.kr/news/articleView.html?idxno=219687" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Lyft" target="Uber" id="35">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour le lancement de robo-taxis en Europe" />
+          <attvalue for="22" value="https://fr.investing.com/news/stock-market-news/les-actions-de-baidu-et-lyft-bondissent-grace-a-un-partenariat-de-robotaxis-en-europe-2988864" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Intel" target="TSMC" id="36">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des puces " />
+          <attvalue for="22" value="https://hardwareand.co/actualites/breves/quels-sont-les-principaux-clients-de-tsmc-en-2025-puis-2026-voici-la-liste" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Intel" target="Nvidia" id="37">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="5 milliards $" />
+          <attvalue for="22" value="https://www.lexpress.fr/economie/high-tech/semi-conducteurs-les-dessous-de-laccord-entre-les-deux-geants-nvidia-et-intel-E3NW5RBWNFGSNIYAQJ3EJTMIQ4/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Salesforce" target="Alphabet" id="38">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur l’IA générative d’entreprise" />
+          <attvalue for="22" value="https://www.salesforce.com/fr/partners/google/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Salesforce" target="Nvidia" id="39">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Intégration IA générative Einstein GPT" />
+          <attvalue for="22" value="https://www.salesforce.com/news/press-releases/2024/09/17/nvidia-ai-agent-partnership/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Apple" target="Alibaba" id="40">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur l'IA en Chine" />
+          <attvalue for="22" value="https://www.lesechos.fr/tech-medias/intelligence-artificielle/apple-et-alibaba-sassocient-pour-developper-lia-des-iphone-en-chine-2148563" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Apple" target="Broadcom" id="41">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Fabrication de puces IA" />
+          <attvalue for="22" value="https://www.bloomberg.com/news/videos/2024-12-11/apple-broadcom-in-chip-partnership-reports-video" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Apple" target="TSMC" id="42">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Production des puces Apple " />
+          <attvalue for="22" value="https://www.macg.co/aapl/2023/08/appletsmc-un-partenariat-de-geants-ne-autour-dun-diner-138593" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alphabet" target="Nvidia" id="43">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur l'entraînement IA et TPU/GPU" />
+          <attvalue for="22" value="https://www.tradingsat.com/nvidia-US67066G1040/actualites/nvidia-nvidia-renforce-son-partenariat-avec-google-autour-de-l-ia-1139438.html" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alphabet" target="Salesforce" id="44">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur l’IA générative d’entreprise" />
+          <attvalue for="22" value="https://www.salesforce.com/fr/partners/google/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alphabet" target="SAP" id="45">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat IA et cloud" />
+          <attvalue for="22" value="https://cloud.google.com/solutions/sap?hl=fr" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alphabet" target="Nokia" id="46">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur réseaux cloud natifs" />
+          <attvalue for="22" value="https://www.nokia.com/newsroom/nokia-network-apis-now-available-on-google-cloud-marketplace-making-it-even-easier-for-developers-to-utilize/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alphabet" target="Oracle" id="47">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Interopérabilité cloud" />
+          <attvalue for="22" value="https://www.boursier.com/actions/actualites/news/accord-entre-oracle-et-alphabet-sur-gemini-964965.html" />
+          <attvalue for="23" value="Google cloud" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="Ericsson" id="48">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="1999" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat edge computing 5G" />
+          <attvalue for="22" value="https://www.ericsson.com/en/about-us/history/changing-the-world/big-bang/collaboration-with-microsoft" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="IBM" id="49">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025 (évolution d'une collaboration qui remonte à 1980)" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration cloud hybride" />
+          <attvalue for="22" value="https://newsroom.ibm.com/2025-04-29-ibm-launches-microsoft-practice-to-deliver-transformative-business-value-for-clients?utm_source=chatgpt.comIBM Press, 2023, https://www.ibm.com/microsoft" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="LinkedIn" id="50">
+        <attvalues>
+          <attvalue for="18" value="Acquisition" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Acquisition " />
+          <attvalue for="22" value="Microsoft News, 2023" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="Meta" id="51">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="240 millions $" />
+          <attvalue for="22" value="https://www.ecommercemag.fr/Thematique/marketing-1221/Breves/Facebook-Microsoft-annoncent-developpement-leur-partenariat-publicitaire-168481.htm/amp" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="Nvidia" id="52">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour services IA sur Azure" />
+          <attvalue for="22" value="Nvidia Blog, 2023" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="AT&amp;T" id="53">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat cloud et 5G" />
+          <attvalue for="22" value="https://azure.microsoft.com/en-us/blog/improving-the-cloud-for-telcos-updates-of-microsoft-s-acquisition-of-att-s-network-cloud/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Microsoft" target="Oracle" id="54">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Interopérabilité cloud" />
+          <attvalue for="22" value="https://www.oracle.com/cloud/azure/interconnect/faq/#:~:text=Oracle's%20partnership%20with%20Microsoft%20enables,certification%20and%20support%20from%20Oracle." />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Baidu" target="Alibaba" id="55">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur IA générative" />
+          <attvalue for="22" value="https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_8c8e5e71-5bd3-43f5-a25f-1089f1a559a6" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Baidu" target="Uber" id="56">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat pour le lancement de robo-taxis en Asie et MO" />
+          <attvalue for="22" value="https://www.lefigaro.fr/flash-eco/uber-s-associe-au-chinois-baidu-pour-deployer-des-robotaxis-20250715" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Baidu" target="Huawei" id="57">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat developpement navigation connectée" />
+          <attvalue for="22" value="http://mobilite-verte.com/news/article-482.html" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alibaba" target="Baidu" id="58">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Collaboration sur IA générative" />
+          <attvalue for="22" value="https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_8c8e5e71-5bd3-43f5-a25f-1089f1a559a6" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Alibaba" target="Apple" id="59">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur l'IA en Chine" />
+          <attvalue for="22" value="https://www.lesechos.fr/tech-medias/intelligence-artificielle/apple-et-alibaba-sassocient-pour-developper-lia-des-iphone-en-chine-2148563" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Pinterest" target="Amazon" id="60">
+        <attvalues>
+          <attvalue for="18" value="Accord de publicité" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Accord publicitaire" />
+          <attvalue for="22" value="https://www.lsa-conso.fr/amazon-s-associe-a-tiktok-et-pinterest-pour-favoriser-les-achats-via-ces-reseaux-sociaux,456777" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Ericsson" target="Microsoft" id="61">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="1999" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat edge computing 5G" />
+          <attvalue for="22" value="https://www.ericsson.com/en/about-us/history/changing-the-world/big-bang/collaboration-with-microsoft" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="AT&amp;T" target="Microsoft" id="62">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat cloud et 5G" />
+          <attvalue for="22" value="https://azure.microsoft.com/en-us/blog/improving-the-cloud-for-telcos-updates-of-microsoft-s-acquisition-of-att-s-network-cloud/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="TSMC" target="Nvidia" id="63">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Production de GPU Hopper + domaine des semi-conducteurs, notamment pour la fabrication de puces destinées à l'intelligence artificielle (IA)" />
+          <attvalue for="22" value=" https://quantaintelligence.ai/2024/09/15/semiconductors/nvidias-semiconductor-partnerships-transform-ai-landscape" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="TSMC" target="Sony" id="64">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Construction d’usine au Japon" />
+          <attvalue for="22" value="https://en.wikipedia.org/wiki/Japan_Advanced_Semiconductor_Manufacturing" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="TSMC" target="AMD" id="65">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des puces de AMD" />
+          <attvalue for="22" value="AnandTech, 2023" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Qualcomm" target="TSMC" id="66">
+        <attvalues>
+          <attvalue for="18" value="Client/fournisseur" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des puces " />
+          <attvalue for="22" value="https://hardwareand.co/actualites/breves/quels-sont-les-principaux-clients-de-tsmc-en-2025-puis-2026-voici-la-liste" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Qualcomm" target="Meta" id="67">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="lunettes intelligentes" />
+          <attvalue for="22" value="https://www.expansion.com/economia-digital/companias/2025/10/13/68ecbc09e5fdead3338b4572.html?intcmp=NOT002" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="Nvidia" id="68">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat sur cloud et GPU pour IA générative,collaboration stratégique de longue date des entreprises pour fournir l'infrastructure, les logiciels et les services les plus sécurisés et les plus avancés pour aider les clients à débloquer de nouvelles capacités d'intelligence artificielle (IA) générative." />
+          <attvalue for="22" value="https://www.tradingsat.com/amazoncom-US0231351067/actualites/amazoncom-amazon-nouvelle-collaboration-entre-aws-et-nvidia-1110339.html" />
+          <attvalue for="23" value="partenaire depuis 14ans" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="SAP" id="69">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat cloud d’entreprise, souveraineté numérique en europe" />
+          <attvalue for="22" value="https://news.sap.com/france/2025/09/aws-et-sap-renforcent-leur-collaboration-pour-faire-progresser-la-souverainete-numerique-en-europe/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="Adobe" id="70">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Partenariat marketing cloud" />
+          <attvalue for="22" value="AWS Blog, 2023, https://martech360.com/tech-analytics/adobe-and-amazon-web-services-partner-to-bring-adobe-experience-platform-to-brands/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="Meta" id="71">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Utilisation des services cloud AWS" />
+          <attvalue for="22" value="https://www.hpcwire.com/off-the-wire/aws-and-meta-partner-to-accelerate-ai-innovation/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="Pinterest" id="72">
+        <attvalues>
+          <attvalue for="18" value="Accord de publicité" />
+          <attvalue for="19" value="2024" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Accord publicitaire" />
+          <attvalue for="22" value="https://www.lsa-conso.fr/amazon-s-associe-a-tiktok-et-pinterest-pour-favoriser-les-achats-via-ces-reseaux-sociaux,456777" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Amazon" target="Rivian" id="73">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2019" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Fourniture de véhicules électriques" />
+          <attvalue for="22" value="https://www.reuters.com/article/technology/amazon-vows-to-be-carbon-neutral-by-2040-buying-100000-electric-vans-idUSKBN1W41ZV/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Rivian" target="Amazon" id="74">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2019" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Fourniture de véhicules électriques" />
+          <attvalue for="22" value="https://www.reuters.com/article/technology/amazon-vows-to-be-carbon-neutral-by-2040-buying-100000-electric-vans-idUSKBN1W41ZV/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Arm" target="Meta" id="75">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="Non-concurrence" />
+          <attvalue for="21" value="amélioration de l'ia de meta" />
+          <attvalue for="22" value="https://newsroom.arm.com/news/arm-meta-strategic-partnership" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Oracle" target="Nvidia" id="76">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Alliance pour IA et cloud computing" />
+          <attvalue for="22" value="https://www.oracle.com/fr/cloud/nvidia/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Oracle" target="Microsoft" id="77">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Interopérabilité cloud" />
+          <attvalue for="22" value="https://www.oracle.com/cloud/azure/interconnect/faq/#:~:text=Oracle's%20partnership%20with%20Microsoft%20enables,certification%20and%20support%20from%20Oracle." />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+      <edge source="Oracle" target="Alphabet" id="78">
+        <attvalues>
+          <attvalue for="18" value="Accord de coopération stratégique" />
+          <attvalue for="19" value="2025" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="Interopérabilité cloud" />
+          <attvalue for="22" value="https://www.boursier.com/actions/actualites/news/accord-entre-oracle-et-alphabet-sur-gemini-964965.html" />
+          <attvalue for="23" value="Google cloud" />
+        </attvalues>
+      </edge>
+      <edge source="Oracle" target="Meta" id="79">
+        <attvalues>
+          <attvalue for="18" value="Investissement" />
+          <attvalue for="19" value="NaN" />
+          <attvalue for="20" value="NaN" />
+          <attvalue for="21" value="investissment ia" />
+          <attvalue for="22" value="https://fr.businessam.be/cours-de-laction-oracle-prevoit-une-forte-croissance-grace-aux-services-cloud-a-lia-et-a-sa-collaboration-avec-meta/" />
+          <attvalue for="23" value="NaN" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

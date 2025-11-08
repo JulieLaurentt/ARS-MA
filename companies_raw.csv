@@ -1,13 +1,13 @@
-Entreprises,ISIN,Pays,CA,Budget R&D,Taille entreprise ,Secteur activité premier ,Actionnaire majoritaire ,OUI,NON
-Microsoft,US5949181045,US,"281,724 Md$ 2025","32, 488 Md$ ",Grande (228000 employés) ,Logiciel,Vanguard ,TRUE,FALSE
-Alphabet,US02079K3059 (Class A) / US02079K1079 (Class C),US,"350,018 Md$ 2025","48, 789 Md$",Grande (187103 employés),Logiciel,Vanguard ,TRUE,FALSE
+﻿Entreprises,ISIN,Pays,CA,Budget R&D,Taille entreprise ,Secteur activité premier ,Actionnaire majoritaire ,OUI,NON
+Microsoft,US5949181045,US,"281,724 Md$ 2025","32, 488 Md$ ",Grande (228000 employés) ,Logiciel,Vanguard,TRUE,FALSE
+Alphabet,US02079K3059 (Class A) / US02079K1079 (Class C),US,"350,018 Md$ 2025","48, 789 Md$",Grande (187103 employés),Logiciel,Vanguard,TRUE,FALSE
 Amazon,US0231351067,US,"637,959 Md$ 2024","88.54 Md$ (FY2024; ""Technology & Content"")",Grande (1546000 employés) ,Logiciel,Jeff Bezos,TRUE,FALSE
-Nvidia,US67066G1040,US,130.5 Md$ (FY2025),12.914 Md$ (FY2025),Grande (36000 employés) ,Electronique,Vanguard ,TRUE,FALSE
+Nvidia,US67066G1040,US,130.5 Md$ (FY2025),12.914 Md$ (FY2025),Grande (36000 employés) ,Electronique,Vanguard,TRUE,FALSE
 Oracle,US68389X1054,US,"57,399 Md$ 2025","9,860 Md$ 2025",Grande (162000 employés) ,Cloud,Ellison,TRUE,FALSE
-Salesforce,US79466L3024,US,37.90 Md$ (FY2025),5.493 Md$ 2025,Grande (76 453 employés),Logiciel,Vanguard ,TRUE,FALSE
-IBM,US4592001014,US,"62,753 Md$ 2024",7.48 Md$ (FY2024),Grande (3293 400 employés) ,Logiciel,Vanguard ,TRUE,FALSE
-Apple,US0378331005,US,"391,035 Md$ sept 2024",31.37 B$ (FY2024),Grande (164 000 employés) ,Logiciel,Vanguard ,TRUE,FALSE
-Meta,US30303M1027,US,"164,501 Md$ déc 2024",43.619 B$ (FY2024),Grande (75 945 employés) ,Logiciel,Vanguard ,TRUE,FALSE
+Salesforce,US79466L3024,US,37.90 Md$ (FY2025),5.493 Md$ 2025,Grande (76 453 employés),Logiciel,Vanguard,TRUE,FALSE
+IBM,US4592001014,US,"62,753 Md$ 2024",7.48 Md$ (FY2024),Grande (3293 400 employés) ,Logiciel,Vanguard,TRUE,FALSE
+Apple,US0378331005,US,"391,035 Md$ sept 2024",31.37 B$ (FY2024),Grande (164 000 employés) ,Logiciel,Vanguard,TRUE,FALSE
+Meta,US30303M1027,US,"164,501 Md$ déc 2024",43.619 B$ (FY2024),Grande (75 945 employés) ,Logiciel,Vanguard,TRUE,FALSE
 Samsung,KR7005930003 (actions ordinaires),Corée du Sud,300.9 Tn KRW (FY2024),35.0 Tn KRW (FY2024),Grande ,Electronique,Samsung Life Insurance,TRUE,FALSE
 Snowflake,US8334451098 (Bourse Francfort),US,"3,626 Md$ janv 2025","1,784 Md$ ",Grande (7834 employés),Cloud,Vanguard,TRUE,FALSE
 Uber Technologies,US90353T1007 (nasdaq.com),US,"43,978 Md$ (2024","3, 109 Md$",Grande (31 100 employés),Automobile ,Vanguard,TRUE,FALSE
@@ -17,16 +17,16 @@ Palantir,US69608A1088,US,"2,865 Md$ déc 2024",508 Millions,Grande (4164 employ�
 C3.ai,US12468P1049,US,389 Millions 2025,226 Millions,Grande (1181 employés),IA,Vanguard,TRUE,FALSE
 ServiceNow,US81762P1021,US,11 Md$ déc 2024,"2,5 Md$ ",Grande (26 293 employés) ,Logiciel,Vanguard,TRUE,FALSE
 VMware,,US,13 Md$ fév 2023,"3,3 Md$","Grande (38,300 employés)",Logiciel,,FALSE,TRUE
-Cloudflare,	US18915M1071,US,2 Md$ déc 2024,421 Millions,Grande (4616 employés),Cloud,Capital World Investors,TRUE,FALSE
-DigitalOcean,	US25402D1028,US,781 Millions,"142,5 Millions",Grande (1210 employés),Cloud,Access Industries,TRUE,FALSE
+Cloudflare,US18915M1071,US,2 Md$ déc 2024,421 Millions,Grande (4616 employés),Cloud,Capital World Investors,TRUE,FALSE
+DigitalOcean,US25402D1028,US,781 Millions,"142,5 Millions",Grande (1210 employés),Cloud,Access Industries,TRUE,FALSE
 Atlassian,US0494681010,Australie,"5,215 Md$ 2025","2,7 Md$",Grande (13813 employés),Logiciel,Vanguard,TRUE,FALSE
 Akamai,US00971T1016,US,4 Md$ en déc 2024,471 Millions,Grande (10 700 employés),IA,Vanguard,TRUE,FALSE
 Elastic,NL0013056914,Pays Bas,"1,5 Md$ 2025","365,68 Millions",Grande (3711 employés),Logiciel,Vanguard,TRUE,FALSE
 MongoDB,US60937P1066,US,2 Md$ 2025,600 Millions,Grande (5558 employés),Logiciel,Vanguard,TRUE,FALSE
 Dell,US24703L2025,US,"95,567 Md$ 2025",3 Md$ ,Grande (108 000 employés),Electronique,Vanguard,TRUE,FALSE
 HP Inc.,US40434L1052,US,"53,559 Md$ oct 2024","1,64 Md$",Grande (58 000 employés),Electronique,Vanguard,TRUE,FALSE
-Lenovo,HK0992009065	,Chine,70. Md$ 2025,"2,225 Md$",Grande (72 000 employés),Electronique,Legend Holdings Company ,TRUE,FALSE
-ASUS,TW0002357001,Taïwan,587 Md$ déc 2024,"22,036 Md$",Grande ,Electronique,Yuanta Securities Investment ,TRUE,FALSE
+Lenovo,HK0992009065,Chine,70. Md$ 2025,"2,225 Md$",Grande (72 000 employés),Electronique,Legend Holdings Company,TRUE,FALSE
+ASUS,TW0002357001,Taïwan,587 Md$ déc 2024,"22,036 Md$",Grande ,Electronique,Yuanta Securities Investment,TRUE,FALSE
 Acer,TW0002353000,Taïwan,265 Md$ déc 2024,"2,266 Md$ ",Grande ,Electronique,BlackRock,TRUE,FALSE
 LG Electronics,KR7003550001,Corée du Sud,7 Md$ déc 2024,"51,135 Md$",Grande,Electronique,Gu (Gwang Mo),TRUE,FALSE
 Sony,JP3435000009,Japon,13 Tn$ 2025,"734,5 Md$","Grande (112,300 employés)",Electronique,Nomura Asset Management,TRUE,FALSE
@@ -50,9 +50,9 @@ Verizon,,US,"134,788 Md$",,99000,Télécomm,Vanguard,FALSE,FALSE
 AT&T,,US,"122,336Md$",955M$,140990,Télécomm,Vanguard,FALSE,FALSE
 Orange,,France,"40,26Md$",,119270,Télécomm,French Government,FALSE,FALSE
 Deutsche Telekom,,Allemagne,"115,769Md$","21,3M$",200227,Télécomm,KfW,FALSE,FALSE
-Alibaba,,Chine,"139,068Md$","7,292Md$",123711,e commerce,Primecap Management Company ,FALSE,FALSE
+Alibaba,,Chine,"139,068Md$","7,292Md$",123711,e commerce,Primecap Management Company,FALSE,FALSE
 Tencent,,Chine,"660,257Md$","70,686Md$","111,221",Logiciel,Prosus NV,FALSE,FALSE
-Baidu,,Chine,"133,25Md$","24,192Md$","35,9",Logiciel,Primecap Management Company ,FALSE,FALSE
+Baidu,,Chine,"133,25Md$","24,192Md$","35,9",Logiciel,Primecap Management Company,FALSE,FALSE
 JD.com,,Chine,"1,158,819Md$","16,826Md$","570,895",e commerce,Vanguard,FALSE,FALSE
 Meituan,,Chine,"242,646Md$","20,718Md$","108,9",e commerce,Vanguard,FALSE,FALSE
 Pinduoduo,,Chine,"393,836Md$","12,659Md$","23,465",Télécomm,Baillie Gifford and Co,FALSE,FALSE
@@ -60,24 +60,24 @@ Rakuten,,Japon,"2,279,233Md$","17,136Md$",,e commerce,,FALSE,FALSE
 Shopify,,Canada,"8,88Md$","1,717Md$",8100,e commerce,Capital World Investors,FALSE,FALSE
 MercadoLibre,,Argentine,"20,77Md$","1,663Md$","84,207",e commerce,Galperin Trust,FALSE,FALSE
 Snapchat,,US,"5,361","1,553","4,911",Logiciel,Tencent Hldings Ltd,FALSE,FALSE
-Reddit,,US,"1,3Md$","925,63M$","2,333",Logiciel,Fidelity Management and Research Company ,FALSE,FALSE
+Reddit,,US,"1,3Md$","925,63M$","2,333",Logiciel,Fidelity Management and Research Company,FALSE,FALSE
 Pinterest,,US,"3,646Md$","1,24Md$","4,666",Logiciel,Vanguard,FALSE,FALSE
 Rivian,,US,"4,97Md$","1,539Md$","14,861",Automobile ,Amazon,FALSE,FALSE
 Lucid Motors,,US,,,,Automobile ,,FALSE,FALSE
-XPeng,,Chine,"5,679Md$","897,41M$","16,631",Automobile ,Alibaba Group Holding Ltd,FALSE,FALSE
-NIO,,Chine,"65,731Md$","12,046Md$","45,635",Automobile ,Tencent Holdings Ltd,FALSE,FALSE
+XPeng,,Chine,"5,679Md$","897,41M$","16,631",Automobile,Alibaba Group Holding Ltd,FALSE,FALSE
+NIO,,Chine,"65,731Md$","12,046Md$","45,635",Automobile,Tencent Holdings Ltd,FALSE,FALSE
 Uber,,US,"43,978Md$","3,109Md$","31,1",Logiciel transports,Vanguard,FALSE,FALSE
 Lyft,,US,"5,786Md$","397,07M$","2,934",Logiciel transports,Vanguard,FALSE,FALSE
 Didi,,Chine,"206,798Md$","7,56Md$","19,113",Logiciel transports,Davis Selected Advisers,FALSE,FALSE
-SAP,888098,Allemagne,"34,176Mds$ (2024)","6,509 M$",109121,Logiciel,Blackrock ,TRUE,FALSE
+SAP,888098,Allemagne,"34,176Mds$ (2024)","6,509 M$",109121,Logiciel,BlackRock,TRUE,FALSE
 Adobe,L55749382,US,"21,51Mds$ (2024)","3,944B$",30709,Logiciel,Vanguard,TRUE,FALSE
 Zoom,JP3411820008,US,"18,072 Mds$ (2024)","898,23Millions$",200,Logiciel,Lijima (masahiro),TRUE,FALSE
-Dropbox,US26210C1045,US,"2,548Mds$","914,9M$","2,204",Logiciel,Vanguard ,TRUE,FALSE
-CrowdStrike,US22788C1053,US,"3,953Mds$ (2024)","1,076M$","10,047",Cloud,Vanguard ,TRUE,FALSE
-Okta,US6792951054	,US,"2,610Mds$ (2025)",642M$,"5,914",Logiciel,Vanguard ,TRUE,FALSE
+Dropbox,US26210C1045,US,"2,548Mds$","914,9M$","2,204",Logiciel,Vanguard,TRUE,FALSE
+CrowdStrike,US22788C1053,US,"3,953Mds$ (2024)","1,076M$","10,047",Cloud,Vanguard,TRUE,FALSE
+Okta,US6792951054,US,"2,610Mds$ (2025)",642M$,"5,914",Logiciel,Vanguard,TRUE,FALSE
 Check Point,IL0010824113,Israël,"2,565 Mds$ (2024)","388,4M$","6,669",Cybersécurité,Shwed (Gil),TRUE,FALSE
-Fortinet,US34959E1091,US,"5,955 Mds$ (2024)","716,8M$","14,898",Cybersécurité,Vanguard ,TRUE,FALSE
-Palo Alto Networks,US6974351057,US,"9,221  Mds$ (2025)","1,984M$","16,068",IA,Vanguard ,TRUE,FALSE
+Fortinet,US34959E1091,US,"5,955 Mds$ (2024)","716,8M$","14,898",Cybersécurité,Vanguard,TRUE,FALSE
+Palo Alto Networks,US6974351057,US,"9,221  Mds$ (2025)","1,984M$","16,068",IA,Vanguard,TRUE,FALSE
 OpenAI,,US,,,,IA,,FALSE,TRUE
 Anthropic,,US,"4,000 Mds$ (2024)",,1035,IA,,FALSE,TRUE
 DeepMind,,Royaume-Uni,"1,080 Mds$ (2022)",,,IA,,FALSE,TRUE
