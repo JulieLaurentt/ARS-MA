@@ -1,7 +1,7 @@
 Entreprises,ISIN,Pays,CA,Budget R&D,Taille entreprise ,Secteur activité premier ,Actionnaire majoritaire ,OUI,NON
 Microsoft,US5949181045,US,"281,724 Md$ 2025","32, 488 Md$ ",Grande (228000 employés) ,Logiciel,Vanguard ,TRUE,FALSE
 Alphabet,US02079K3059 (Class A) / US02079K1079 (Class C),US,"350,018 Md$ 2025","48, 789 Md$",Grande (187103 employés),Logiciel,Vanguard ,TRUE,FALSE
-AWS,US0231351067,US,"637,959 Md$ 2024","88.54 Md$ (FY2024; ""Technology & Content"")",Grande (1546000 employés) ,Logiciel,Jeff Bezos,TRUE,FALSE
+Amazon,US0231351067,US,"637,959 Md$ 2024","88.54 Md$ (FY2024; ""Technology & Content"")",Grande (1546000 employés) ,Logiciel,Jeff Bezos,TRUE,FALSE
 Nvidia,US67066G1040,US,130.5 Md$ (FY2025),12.914 Md$ (FY2025),Grande (36000 employés) ,Electronique,Vanguard ,TRUE,FALSE
 Oracle,US68389X1054,US,"57,399 Md$ 2025","9,860 Md$ 2025",Grande (162000 employés) ,Cloud,Ellison,TRUE,FALSE
 Salesforce,US79466L3024,US,37.90 Md$ (FY2025),5.493 Md$ 2025,Grande (76 453 employés),Logiciel,Vanguard ,TRUE,FALSE
@@ -45,30 +45,30 @@ Texas Instruments,US8825081040 TXN,US,15Md€,"1,959,000,000",34000,Electronique
 Ericsson,,Suède,"247,88 Md couronnes suédoises",49955,89900,Electronique,Investor AB,FALSE,FALSE
 Nokia,,Finlande,"19,22 Md€","4,437",80361,Télécomm,Solidium Oy,FALSE,FALSE
 Cisco,,US,"56,654 Md$","7,551",74000,Logiciel,Vanguard,FALSE,FALSE
-ZTE,,Chine,"121,298","20,911",68375,Télécomm,Zhongxingxin Telecom,FALSE,FALSE
-Verizon,,US,"134,788",,99000,Télécomm,Vanguard,FALSE,FALSE
-AT&T,,US,"122,336",955,140990,Télécomm,Vanguard,FALSE,FALSE
-Orange,,France,"40,26",,119270,Télécomm,French Government,FALSE,FALSE
-Deutsche Telekom,,Allemagne,"115,769","21,3",200227,Télécomm,KfW,FALSE,FALSE
-Alibaba,,Chine,"139,068","7,292",123711,e commerce,Primecap Management Company ,FALSE,FALSE
-Tencent,,Chine,"660,257","70,686","111,221",Logiciel,Prosus NV,FALSE,FALSE
-Baidu,,Chine,"133,25","24,192","35,9",Logiciel,Primecap Management Company ,FALSE,FALSE
-JD.com,,Chine,"1,158,819","16,826","570,895",e commerce,Vanguard,FALSE,FALSE
-Meituan,,Chine,"337,591","20,718","108,9",e commerce,Vanguard,FALSE,FALSE
-Pinduoduo,,Chine,"393,836","59,36","23,465",Télécomm,Baillie Gifford and Co,FALSE,FALSE
-Rakuten,,Japon,"2,279","17,136",,e commerce,,FALSE,FALSE
-Shopify,,Canada,"8,88","1,717",8100,e commerce,Capital World Investors,FALSE,FALSE
-MercadoLibre,,Argentine,"20,77","1,663","84,207",e commerce,Galperin Trust,FALSE,FALSE
+ZTE,,Chine,"121,298 Md$","20,911M$",68375,Télécomm,Zhongxingxin Telecom,FALSE,FALSE
+Verizon,,US,"134,788 Md$",,99000,Télécomm,Vanguard,FALSE,FALSE
+AT&T,,US,"122,336Md$",955M$,140990,Télécomm,Vanguard,FALSE,FALSE
+Orange,,France,"40,26Md$",,119270,Télécomm,French Government,FALSE,FALSE
+Deutsche Telekom,,Allemagne,"115,769Md$","21,3M$",200227,Télécomm,KfW,FALSE,FALSE
+Alibaba,,Chine,"139,068Md$","7,292Md$",123711,e commerce,Primecap Management Company ,FALSE,FALSE
+Tencent,,Chine,"660,257Md$","70,686Md$","111,221",Logiciel,Prosus NV,FALSE,FALSE
+Baidu,,Chine,"133,25Md$","24,192Md$","35,9",Logiciel,Primecap Management Company ,FALSE,FALSE
+JD.com,,Chine,"1,158,819Md$","16,826Md$","570,895",e commerce,Vanguard,FALSE,FALSE
+Meituan,,Chine,"242,646Md$","20,718Md$","108,9",e commerce,Vanguard,FALSE,FALSE
+Pinduoduo,,Chine,"393,836Md$","12,659Md$","23,465",Télécomm,Baillie Gifford and Co,FALSE,FALSE
+Rakuten,,Japon,"2,279,233Md$","17,136Md$",,e commerce,,FALSE,FALSE
+Shopify,,Canada,"8,88Md$","1,717Md$",8100,e commerce,Capital World Investors,FALSE,FALSE
+MercadoLibre,,Argentine,"20,77Md$","1,663Md$","84,207",e commerce,Galperin Trust,FALSE,FALSE
 Snapchat,,US,"5,361","1,553","4,911",Logiciel,Tencent Hldings Ltd,FALSE,FALSE
-Reddit,,US,"1,3","925,63","2,333",Logiciel,Fidelity Management and Research Company ,FALSE,FALSE
-Pinterest,,US,"3,646","1,24","4,666",Logiciel,Vanguard,FALSE,FALSE
-Rivian,,US,"4,97","1,539","14,861",Automobile ,Amazon,FALSE,FALSE
+Reddit,,US,"1,3Md$","925,63M$","2,333",Logiciel,Fidelity Management and Research Company ,FALSE,FALSE
+Pinterest,,US,"3,646Md$","1,24Md$","4,666",Logiciel,Vanguard,FALSE,FALSE
+Rivian,,US,"4,97Md$","1,539Md$","14,861",Automobile ,Amazon,FALSE,FALSE
 Lucid Motors,,US,,,,Automobile ,,FALSE,FALSE
-XPeng,,Chine,"5,679","897,41","16,631",Automobile ,Alibaba Group Holding Ltd,FALSE,FALSE
-NIO,,Chine,"65,731","12,046","45,635",Automobile ,Tencent Holdings Ltd,FALSE,FALSE
-Uber,,US,"43,978","3,109","31,1",Logiciel transports,Vanguard,FALSE,FALSE
-Lyft,,US,"5,786","397,07","2,934",Logiciel transports,Vanguard,FALSE,FALSE
-Didi,,Chine,"206,798","7,56","19,113",Logiciel transports,Davis Selected Advisers,FALSE,FALSE
+XPeng,,Chine,"5,679Md$","897,41M$","16,631",Automobile ,Alibaba Group Holding Ltd,FALSE,FALSE
+NIO,,Chine,"65,731Md$","12,046Md$","45,635",Automobile ,Tencent Holdings Ltd,FALSE,FALSE
+Uber,,US,"43,978Md$","3,109Md$","31,1",Logiciel transports,Vanguard,FALSE,FALSE
+Lyft,,US,"5,786Md$","397,07M$","2,934",Logiciel transports,Vanguard,FALSE,FALSE
+Didi,,Chine,"206,798Md$","7,56Md$","19,113",Logiciel transports,Davis Selected Advisers,FALSE,FALSE
 SAP,888098,Allemagne,"34,176Mds$ (2024)","6,509 M$",109121,Logiciel,Blackrock ,TRUE,FALSE
 Adobe,L55749382,US,"21,51Mds$ (2024)","3,944B$",30709,Logiciel,Vanguard,TRUE,FALSE
 Zoom,JP3411820008,US,"18,072 Mds$ (2024)","898,23Millions$",200,Logiciel,Lijima (masahiro),TRUE,FALSE
@@ -115,6 +115,9 @@ BYD,,Chine,,,,Automobile ,,FALSE,
 Deepseek,,Chine,,,,IA,,FALSE,
 Lyft,,US,,,,Logiciel transports,,FALSE,
 CoreWeave,,US,,,,Cloud,,FALSE,
+Nscale,,Royaume-Uni,,,Petite ( 200 employees),Infastructure Data,,FALSE,
+Capgemini,,France,,,,Logiciel,,FALSE,
+Foxconn,,Taïwan,,,,Electronique,,FALSE,
 Aligned Data Centers,,US,40 Mds $,,,Infastructure Data,,FALSE,
 ,,,,,,,,FALSE,FALSE
 ,,,,,,,,FALSE,FALSE
