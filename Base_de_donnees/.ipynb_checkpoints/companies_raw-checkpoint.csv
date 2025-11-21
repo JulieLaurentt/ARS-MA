@@ -1,0 +1,75 @@
+﻿Entreprises;ISIN;Pays;CA;Budget R&D;Taille entreprise;Secteur activité premier;Actionnaire majoritaire;OUI;NON
+Acer;TW0002353000;Taïwan;8,543 Md$ déc 2024;73 Millions $;Grande (pas de données);Electronique;Fuh Hwa;TRUE;FALSE
+Adobe;US00724F1012;US;21,51 Md$ (2024);3,944 Md$;Grande (30 709 employés);Logiciel;Vanguard;TRUE;FALSE
+Akamai;US00971T1016;US;4 Md$ en déc 2024;471 Millions $;Grande (10 700 employés);IA;Vanguard;TRUE;FALSE
+Alibaba;US01609W1027;Chine;139,068 Md$;8 Md$;Grande (123 711 employés);e commerce;Primecap Management Company;FALSE;FALSE
+Aligned Data Centers;pas sur LSEG;US;40 Mds $;;Grande (308 employés);Infastructure Data;BlackRock;FALSE;TRUE
+Alphabet;US02079K3059 (Class A) / US02079K1079 (Class C);US;350,018 Md$ 2025;48, 789 Md$;Grande (190 167employés);Logiciel;Vanguard;TRUE;FALSE
+Amazon;US0231351067;US;637,959 Md$ 2024;"88,54 Md$ (FY2024; ""Technology & Content"")";Grande (1 578 000 employés);Logiciel;Jeff Bezos;TRUE;FALSE
+AMD;US0079031078;US;25,785 Md$ déc 2024;6,5 Md$;Grande (28 000 employés);Electronique;Vanguard;TRUE;FALSE
+Anthropic;pas coté idem;US;4,000 Md$ (2024);;Grande (1035 employés);IA;Amazon;FALSE;TRUE
+Apple;US0378331005;US;416,161 Md$ sept 2025;34,550 Md$;Grande (166 000 employés);Logiciel;Vanguard;TRUE;FALSE
+Arm;US0420682058;Royaume-Uni;4 Md$ 2025;2 Md$;Grande (8 330 employés);Electronique;SB Investement Advisers;TRUE;FALSE
+ASML;NL0010273215;Pays Bas;32,698 Md$ 2024;4,979 Md$;Grande (44 000 employés);Electronique;BlackRock;TRUE;FALSE
+AT&T;US00206R1023;US;122,336 Md$;955 Millions $;Grande (135 670 employés);Télécomm;Vanguard;FALSE;FALSE
+Atlassian;US0494681010;Australie;5,215 Md$ 2025;2,7 Md$;Grande (13 813 employés);Logiciel;Vanguard;TRUE;FALSE
+Baidu;US0567521085;Chine;18,699 Md$;3,108 Md$;Grande (35 900 employés);Logiciel;Primecap Management Company;FALSE;FALSE
+BharatGen;Idem;Inde;;;;IA;;FALSE;TRUE
+Broadcom;US11135F1012;US;51,5 Md$ nov 2024;9,310 Md$;Grande (37 000 employés);Electronique;Vanguard;TRUE;FALSE
+BYD;CNE100001526;Chine;107,976 Md$;6,976 Md$;Grande (968 872 employés);Automobile;Wang;FALSE;
+ByteDance;Non coté;Chine;;;;Plateforme sociale;;FALSE;TRUE
+Capgemini;FR0000125338;France;22,096 Md€;indispo;Grande (349 373 employés);Logiciel;Crédit Agricole;FALSE;
+Cisco;US17275R1023;US;56,654 Md$;9,300 Md$;Grande (86 200 employés);Logiciel;Vanguard;FALSE;FALSE
+CoreWeave;US21873S1087;US;1,915 Md$;56 Millions $;non indiqué;Cloud;Magnetar;FALSE;
+CrowdStrike;US22788C1053;US;3,953 Md$ (2024);1,076Md$;Grande (10 047 employés);Cloud;Vanguard;TRUE;FALSE
+Cruise;;US;;;;Logiciel transports;;FALSE;TRUE
+Databricks;;Royaume-Uni;3,700 Mds$(2025);indispo;Grande (10 000 employés);IA;;FALSE;TRUE
+DeepMind;;Royaume-Uni;1,325 Mds£ (2024);indispo;indispo;IA;;FALSE;TRUE
+Deepseek;;Chine;;;;IA;Sdema;FALSE;TRUE
+Ericsson;SE0000108656;Suède;26,011 Md$;5,241 Md$;Grande (89 898 employés);Electronique;Investor AB;FALSE;FALSE
+Figma;US3168411052;US;749 Millions $ (2024);751 Millions $;Grande (1831 employés);Logiciel;Index Ventures;TRUE;FALSE
+Fortinet;US34959E1091;US;5,955 Mds$ (2024);716,8 Millions $;Grande (14 138 employés);Cybersécurité;Vanguard;TRUE;FALSE
+Foxconn;KYG3R83K1037;Taïwan;4,441 Md$;289 Millions $;Grande (68 970 employés);Electronique;Hon Hai;FALSE;
+General Motors;US37045V1008;US;187,442 Md$;9,2 Md$;Grande (162 000 employés);Automobile;Vanguard;FALSE;
+GitHub;;US;;;Grande (entre 501 et 1000 employés);Logiciel;;FALSE;TRUE
+Honda;JP3854600008;Japon;141,253 Md$;7,160 Md$;Grande (194 173 employés);Automobile;Nomura;FALSE;
+Huawei;CN000HUAWEI0;Chine;26,010 Md$ (2010);2,325 Md$;Grande (110 000 employés);Electronique;Pas de data;FALSE;TRUE
+Hugging Face;;US;46,8 Millions $ (2023);;Moyenne (223);IA;;FALSE;TRUE
+IBM;US4592001014;US;62,753 Md$ 2024;7,479 Md$ (FY2024);Grande (293 400 employés);Logiciel;Vanguard;TRUE;FALSE
+Intel;US4581401001;US;53,101 Md$ déc 2024;16,546 Md$;Grande (108 900 employés);Electronique;Vanguard;TRUE;FALSE
+LinkedIn;racheté par microsoft;US;2,990 Mds$ (2015);775,66 Millions $;Grande (9372 employés);Plateforme sociale;;FALSE;TRUE
+Lyft;US55087P1049;US;5,786 Md$;397,07 Millions $;Grande (2,934 employés);Logiciel transports;Vanguard;FALSE;FALSE
+Mercedes-Benz;;Allemagne;168,444 Md$;11,220 Md$;Grande (163 132 employés);Automobile;BAIC;FALSE;
+Meta;US30303M1027;US;164,501 Md$ déc 2024;43,619 Md$ (FY2024);Grande (75 945 employés);Logiciel;Vanguard;TRUE;FALSE
+Microsoft;US5949181045;US;281,724 Md$ 2025;32,488 Md$;Grande (228000 employés);Logiciel;Vanguard;TRUE;FALSE
+Mistral AI;pas coté, CA estimé;France;100 millions $;;Moyenne (300 employés);IA;ASML;FALSE;FALSE
+Netflix;US64110L1061;US;39 Md$;2,925 Md$;Grande (14 000 employés);Plateforme divertissement;Vanguard;FALSE;
+Nokia;FI0009000681;Finlande;22,236 Md$;5,401 Md$;Grande (80 361 employés);Télécomm;Solidium Oy;FALSE;FALSE
+Nscale;pas coté;Royaume-Uni;;;Moyenne ( 200 employees);Infastructure Data;;FALSE;
+Nvidia;US67066G1040;US;130,5 Md$ (FY2025);12.914 Md$ (FY2025);Grande (36000 employés);Electronique;Vanguard;TRUE;FALSE
+OpenAI;pas coté, CA estimé dans la presse. https://www.cnbc.com/2025/11/06/sam-altman-says-openai-will-top-20-billion-annual-revenue-this-year.html;US;20MdGBP;;;IA;;FALSE;TRUE
+Oracle;US68389X1054;US;57,399 Md$ 2025;9,860 Md$ 2025;Grande (162 000 employés);Cloud;Ellison;TRUE;FALSE
+Orange;FR0000133308;France;46,578 Md$;indispo;Grande (119 270 employés);Télécomm;French Government;FALSE;FALSE
+Panasonic;JP3866800000;Japon;55,086 Mds $;3,11 Md$;Grande (207,743 employés);Electronique;Nomura Asset Management;TRUE;FALSE
+Qualcomm;US7475251036;US;44,284 Md$ sept 2024;9,042 Md$;Grande (52 000 employés);Télécomm;Vanguard;TRUE;FALSE
+Red Hat;;US;;;;Cloud;;FALSE;TRUE
+Rivian;US76954A1034;US;4,97 Md$;1,539 Md$;Grande (14 861 employés);Automobile;Amazon;FALSE;FALSE
+Salesforce;US79466L3024;US;37,90 Md$;5,493 Md$ 2025;Grande (76 453 employés);Logiciel;Vanguard;TRUE;FALSE
+Samsung;KR7005930003 (actions ordinaires);Corée du Sud;206,243 Md$;24,037 Md$;Grande;Electronique;Samsung Life Insurance;TRUE;FALSE
+SAP;DE0007164600;Allemagne;39,539 Md$;7,530 Md$;Grande (110 730 employés);Logiciel;BlackRock;TRUE;FALSE
+Scale AI;;US;870 Millions $ (2023);;Grande (900 employés);IA;;FALSE;TRUE
+Slack;;US;902,61 Millions $;382,15 Millions$;Grande (2 545 employés);Logiciel;;FALSE;TRUE
+Snowflake;US8334451098 (Bourse Francfort);US;3,626 Md$ janv 2025;1,784 Md$;Grande (7834 employés);Cloud;Vanguard;TRUE;FALSE
+Sony;JP3435000009;Japon;84,386 Md$ 2025;4,784 Md$;Grande (112,300 employés);Electronique;Nomura Asset Management;TRUE;FALSE
+Tencent;KYG875721634;Chine;92,741 Md$;9,928 Md$;Grande (111 221 employés);Logiciel;Prosus NV;FALSE;FALSE
+Tesla;US88160R1014 (Bourse Francfort);US;97,690 Md$ déc 2024;4,540 Md$;Grande (125 665 employés);Automobile;Elon Musk;TRUE;FALSE
+Thales;FR0000121329;France;23,806 Md$;1,473 Md$;Grande (83 020 employés);Electronique;French Governement;FALSE;
+Toyota;JP3633400001;Japon;312,850 Md$;8,968 Md$;Grande (383 853 employés);Automobile;Toyota Industries;FALSE;
+TSMC;TW0002330008;Taïwan;93,419 Md$;6,590 Md$;Grande;Electronique;National Developement Fund;TRUE;FALSE
+Uber;US90353T1007 (nasdaq.com);US;43,978 Md$ (2024;3,109 Md$;Grande (31 100 employés);Logiciel transports;Vanguard;TRUE;FALSE
+Verizon;US92343V1044;US;134,788 Md$;pas de data;Grande (99 600 employés);Télécomm;Vanguard;FALSE;FALSE
+Vodafone Group;GB00BH4HKS39;Royaume-Uni;37,448 Md€;pas de data;Grande (87 205 employés);Télécomm;Emirates Investment Authority;FALSE;
+Volvo;SE0000115446;Suède;55,280 Md$;3,348 Md$;Grande (88 191 employés);Automobile;Swedbank;FALSE;
+Waymo;pas cotée;US;;;;Logiciel transports;;FALSE;TRUE
+Spotify;LU1778762911;Suède;15,673 Md€;1,447 Md€;Grande (7 691 employés);Logiciel musique;Lorentzon;;TRUE
+MediaTek;TW0002454006;Taïwan;17,125 Md$ (2024);4,260 Md$;pas de data;Electronique;Vanguard;TRUE;
